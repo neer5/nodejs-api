@@ -1,17 +1,12 @@
-# Fetch remote API with typescript and es6 concept
+# Simple Rest API to identify number
 
-## Install npm 
+## Installation Steps
 
-npm install
-
-## Run this project
-
-nodemon
-
-## Run ESLint
-
-npm run lint
-
-## Run Test
-
-npm run test
+1. Install npm 
+    - npm install
+2. Run Linting Tool
+    - npm run lint
+3. Run Test
+    - npm run test
+4. Run this project
+    - npm start
