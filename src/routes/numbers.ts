@@ -1,9 +1,9 @@
 import { Router } from 'express';
-import { validateNumber } from '../validators/numbers';
-import { getNumber } from '../controllers/numbers';
+import { NumberValidator } from '../validators/numbers.validator';
+import { NumberController } from '../controllers/numbers.controller';
 
 const routes = Router();
 
-routes.post('/numbers', validateNumber, getNumber);
+routes.post('/numbers', NumberValidator.validateNumber, NumberController.getNumber);
 
 export default routes;

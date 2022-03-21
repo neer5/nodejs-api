@@ -1,7 +1,6 @@
 import type { Config } from '@jest/types';
 
 const config: Config.InitialOptions = {
-  clearMocks: true,
   coverageDirectory: '<rootDir>/coverage',
   coverageThreshold: {
     global: {
@@ -12,7 +11,7 @@ const config: Config.InitialOptions = {
     },
   },
   roots: ["<rootDir>/src"],
-  testMatch: ["**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[tj]s?(x)"],
+  testMatch: ["**/__tests__/**/*.[jt]s?(x)"],
   testEnvironment: 'node',
   moduleFileExtensions: ['ts', 'tsx', 'js'],
   transform: {
