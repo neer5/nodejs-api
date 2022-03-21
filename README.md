@@ -2,15 +2,30 @@
 
 ## Installation Steps
 
-1. Install npm 
-    - npm install
-2. Run Linting Tool
-    - npm run lint
-3. Run Test cases
-    - npm run test
+1. Clone the repo
+   ```sh
+   git clone https://github.com/neer5/nodejs-api.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run Linting Tool
+   ```sh
+    npm run lint
+   ```
 4. Run this project
-    - npm start
+   ```sh
+    npm start
+   ```
+5. After successfully run, follow steps of  `How to use API`
 
+
+## Run test cases
+
+   ```sh
+    npm run test
+   ```
 
 ## How to use API
 
